@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 20px;
+}
+#banner{
+	height: 130px;
+	background: gray;
+	width: 100%;
+}
+#banner h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 30px;
+}
+#galeria{
+	width: 70%;
+	margin: 0;
+	float: left;
+}
+form{
+	padding: 5px;
+	float: left;
+	height: 70px;
+	position: relative;
+}
+article{
+	width: 40%;
+	float: left;
+	margin: 5%;
+}
+article img{
+	padding: 0;
+	width: 100%;
+}
+figure{
+	width: 200px;
+	float: left;
+}
+header nav{
+	float:right;
+	padding-top: 20px;
+}
+footer{
+	height: 70px;
+}
+aside{
+	height: 700px;
+	width: 28%;
+	background-color: gray;
+	float: right;
+}
+li{
+	display: inline;
+	background-color: gray;
+	margin: 5px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+footer{
+	height: 20px;
+	background-color: black;
+	color: white;
+	clear: both;
+}

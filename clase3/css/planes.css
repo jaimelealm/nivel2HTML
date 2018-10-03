@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.planes__contenedor{
+	width: 30%;
+	border: 1px solid gray;
+	margin: 100px 15px;
+	border-radius: 30px 30px 30px 0px;
+	float: left;
+}
+.planes__cabecera{
+	height: 100px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+.planes__cabecera > h3{
+	text-transform: uppercase;
+	color: purple;
+	letter-spacing: 2px;
+}
+.planes__cabecera > h3 + p{
+	font-size: 50px;
+	margin: 10px 0;
+	color: tomato;
+}
+.planes__cabecera > p > sub{
+	font-size: 20px;
+	color: black;
+	position: relative;
+	top: -10px;
+}
+li[class*="items"]{
+	list-style: none;
+	text-align: center;
+	padding: 20px;
+}
+li[class*="items"]:nth-child(2n){
+	background: rgba(200,200,200,.3);
+}
+.planes__cuerpo__enlace{
+	width: 100%;
+	height: 80px;
+	background-color: purple;
+	text-align: center;
+	border-radius: 0px 0px 30px 0px
+}
+a[class="boton-compra"]{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 24px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.planes__cuerpo__enlace:hover{
+	background-color: tomato;
+}
+.planes__contenedor:nth-child(2) .planes__cuerpo__enlace{
+	background-color: tomato;
+}
+.planes__contenedor:nth-child(2) .planes__cuerpo__enlace:hover{
+	background-color: green;
+}
